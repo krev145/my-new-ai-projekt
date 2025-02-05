@@ -1,3 +1,110 @@
+# **AI-powered Speed and Compound Interest Calculator**  
+Final project for the Building AI course  
+
+## **Summary**  
+This project aims to develop an AI-driven calculator for speed conversions and compound interest calculations. The calculator will allow users to effortlessly convert between **minutes per kilometer (min/km) and kilometers per hour (km/h)** while also providing a **compound interest simulator** with adjustable parameters for investment years, monthly contributions, and interest rates.  
+
+---
+
+## **Background**  
+Many runners, cyclists, and fitness enthusiasts frequently switch between different speed units, but manual conversions can be tedious. Similarly, financial planning is crucial for long-term wealth building, but many people find it difficult to grasp the **power of compound interest** and how small contributions grow over time.  
+
+**Problems solved:**  
+- Difficulty in converting between **min/km and km/h** efficiently.  
+- Lack of an **intuitive, adjustable compound interest calculator** for financial planning.  
+- Need for an AI-assisted tool that provides **smart insights based on user inputs**.  
+
+**Personal motivation:**  
+I have a strong interest in both **sports performance** and **financial literacy**. By combining AI with computational models, this project will provide an easy-to-use tool for both **athletes** and **investors** to optimize their training and savings strategies.  
+
+---
+
+## **How is it used?**  
+The solution will consist of **two main features**:  
+
+### **1️⃣ Speed Converter**  
+A user can input either:  
+✅ **Minutes per kilometer (min/km)** → Converts to **kilometers per hour (km/h)**.  
+✅ **Kilometers per hour (km/h)** → Converts to **minutes per kilometer (min/km)**.  
+✅ AI-based suggestions for **target paces** based on previous inputs.  
+
+### **2️⃣ Compound Interest Calculator**  
+Users can adjust:  
+✅ **Investment period (years)**  
+✅ **Monthly contributions**  
+✅ **Expected interest rate**  
+✅ **Compounding frequency (monthly, yearly, etc.)**  
+
+The tool will visualize the **growth of investments over time**, highlighting the impact of compound interest.  
+
+**Target users:**  
+- **Runners, cyclists, and fitness enthusiasts** who want to analyze and optimize their speed data.  
+- **Investors and savers** who want to understand the power of compound interest.  
+- **Coaches and financial advisors** who need an interactive tool for training and financial planning.  
+
+---
+
+## **Data Sources and AI Methods**  
+### **Speed Conversion Model:**  
+- **Mathematical formulas** for unit conversion:  
+  \[
+  \text{Speed (km/h)} = \frac{60}{\text{Pace (min/km)}}
+  \]
+  \[
+  \text{Pace (min/km)} = \frac{60}{\text{Speed (km/h)}}
+  \]
+
+- **AI-enhanced training pace recommendations** using:  
+  - **Regression models** to predict optimal training paces based on previous performances.  
+  - **Machine learning algorithms** for customized pace suggestions based on fitness level.  
+
+### **Compound Interest Model:**  
+- **Standard compound interest formula**:  
+  \[
+  A = P \times (1 + \frac{r}{n})^{n \times t}
+  \]
+  where:  
+  - \( A \) = Final amount  
+  - \( P \) = Monthly contribution  
+  - \( r \) = Annual interest rate  
+  - \( n \) = Compounding frequency  
+  - \( t \) = Number of years  
+
+- **Simulation and visualization** using:  
+  - **AI-powered trend analysis** to suggest different saving strategies.  
+  - **Graphical representation** of investment growth over time.  
+
+---
+
+## **Challenges**  
+- **Real-world variations in running speeds:** Different terrains and conditions affect pace.  
+- **Unpredictable financial markets:** Interest rates fluctuate, affecting long-term predictions.  
+- **User education:** Many people struggle to understand **financial principles** and **pace calculations**.  
+
+---
+
+## **What next?**  
+- **Develop a web or mobile app** for easy accessibility.  
+- **Include currency inflation adjustments** for realistic future value calculations.  
+- **Expand AI training recommendations** with real user data to suggest race paces.  
+- **Integrate real-time financial data** (e.g., historical interest rates, inflation).  
+
+To expand this project, **collaborations with coaches, financial experts, and data scientists** would be valuable.  
+
+---
+
+## **Acknowledgments**  
+- Speed conversion formulas are based on **standard running pace calculations**.  
+- Compound interest calculations follow **standard financial principles**.  
+- Uses **open-source AI libraries** (NumPy, SciPy, TensorFlow, Scikit-learn) for data modeling.  
+
+---
+
+🚀 **This AI-powered tool will help both athletes and investors make data-driven decisions effortlessly!** 🏃‍♂️💰
+
+
+
+-------------------------------------------------------------------------------------------------------
 # my-new-ai-projekt
 Building AI course projekt
 
